@@ -1,0 +1,215 @@
+/*
+Project: Personal Website
+Description: This is our personal site project, it will be posted on github using gh-pages
+Color Theme:
+  -Primary Color:69622F
+  -Secondary Color:282826
+  -Compliment Color:3C3A2B
+  -Base Color:81751B
+  -Other Color: AB9701
+*/
+
+/*===== Global Styles =====*/
+body, html{
+  margin: 0;
+  padding: 0;
+}
+ ul{
+   list-style-type: none;
+ }
+ a{
+   text-decoration:none;
+   color: #333;
+ }
+h1, h2{
+  margin: 0;
+}
+.container{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.border{
+  border-bottom: 2px solid #fff;
+  padding: 20px 0px;
+}
+.border2{
+  border-bottom: 2px solid #fff;
+  padding: 2px 0px;
+}
+
+/*===== Header Styles =====*/
+
+header {
+  height: 100px;
+  background-color: #69622F;
+  color: #fff;
+  margin: 0;
+}
+
+.logo{
+  float: left;
+  width: 30%;
+  margin-top: 30px;
+}
+
+.logo h1{
+  text-align: center;
+  margin: 0;
+}
+
+.menu{
+  width: 25%;
+  float: left;
+  margin-top: 25px;
+  padding-left: 191px;
+
+
+}
+
+.menu li{
+  display: inline;
+}
+
+.menu li:after{
+  content: " | ";
+}
+
+.menu ul {
+  padding: 0px;
+
+
+}
+
+.sm-icons{
+  width: 30%;
+  float: right;
+  margin-top: 40px;
+}
+
+
+/*===== Banner Styles =====*/
+
+#banner {
+  height: 300px;
+  background: url("../img/lion_vr1.jpg")
+  center;
+  background-attachment: fixed;
+  margin: 0;
+  padding-top: 100px;
+
+}
+
+#banner h1{
+  text-align: center;
+  font-size: 3rem;
+}
+
+/*===== Skills Styles =====*/
+#skills {
+  background-color: #282826;
+  height: 475px;
+  color: #fff;
+}
+
+#skills .box {
+  height: 100%;
+  width: 25%;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 30px 2% 10px 2%;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.skills-icon {
+  height: 50px;
+  width: 50px;
+  margin: 0px auto;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.skills-icon i{
+  font-size: 2em;
+  margin: 9px 11px;
+  color: #282826;
+}
+
+.skills-info {
+  text-align: justify;
+  margin-top: 10px;
+  line-height: 22px;
+}
+/*==== About Style ====*/
+
+#about {
+  background-color: #282826;
+  height: 500px;
+}
+#about .space {
+  background-color: #282826;
+  height: 100px;
+}
+
+#about .space-bottom {
+  background-color: #282826;
+  height: 100px;
+  padding-left: 550px;
+}
+
+#about .container {
+  height: 300px;
+  width: inherit;
+  margin: 0px;
+  background-color: #3C3A2B;
+}
+
+.about-image{
+  float: left;
+  margin: 50px;
+
+
+}
+
+.about-image img{
+  border-radius: 100%;
+  margin-left: 30px;
+}
+
+.about-info {
+  float: left;
+  width: 500px;
+  height: 225px;
+  margin: 25px 75px;
+  border: 2px dotted #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: justify;
+
+}
+
+.about-info h1{
+  text-align: center;
+}
+#about .copyright ul {
+  padding: 0px;
+}
+#about .copyright li {
+  padding:0px;
+  margin: 0px;
+  width: 50px;
+  display: inline;
+  color: white;
+}
+
+#about .copyright i {
+  color: white;
+}
+
+#about .icons i{
+  color: #fff;
+}
+#about .icons {
+  padding-left: 86px;
+}
