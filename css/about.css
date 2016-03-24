@@ -105,12 +105,9 @@ header {
 }
 
 /*===== Skills Styles =====*/
-
-.video iframe{
-  display: block;
-  margin: 0 auto;
+#video iframe{
+  margin-left: 300px;
 }
-
 #skills {
   background-color: #282826;
   height: 475px;
