@@ -8,7 +8,7 @@ Color Theme:
   -Base Color:81751B
   -Other Color: AB9701
 */
-
+@import url("contact.css");
 /*===== Global Styles =====*/
 body, html{
   margin: 0;
@@ -19,7 +19,7 @@ body, html{
  }
  a{
    text-decoration:none;
-   color: #333;
+   color: #fff;
  }
 h1, h2{
   margin: 0;
@@ -41,9 +41,10 @@ h1, h2{
 
 header {
   height: 100px;
-  background-color: #69622F;
+  background-color: #6034b1;
   color: #fff;
   margin: 0;
+
 }
 
 .logo{
@@ -84,15 +85,17 @@ header {
   width: 30%;
   float: right;
   margin-top: 40px;
+  font-size: 2em;
 }
+
+
 
 
 /*===== Banner Styles =====*/
 
 #banner {
   height: 300px;
-  background: url("../img/lion_vr1.jpg")
-  center;
+  background: url("../img/night-hot-air.jpg")center;
   background-attachment: fixed;
   margin: 0;
   padding-top: 100px;
@@ -156,19 +159,16 @@ header {
 #about .space {
   background-color: #282826;
   height: 100px;
+  margin: 0;
 }
 
-#about .space-bottom {
-  background-color: #282826;
-  height: 100px;
-  padding-left: 550px;
-}
+
 
 #about .container {
   height: 300px;
   width: inherit;
   margin: 0px;
-  background-color: #3C3A2B;
+  background-color: #6034b1;
 }
 
 .about-image{
@@ -198,10 +198,23 @@ header {
 .about-info h1{
   text-align: center;
 }
-#about .copyright ul {
-  padding: 0px;
+
+/*===== Footer Style =====*/
+#footer{
+  width: 100%;
 }
-#about .copyright li {
+#footer .container {
+  background-color: #282826;
+  height: 100px;
+  padding-left: 550px;
+  margin: 0;
+
+}
+#footer .copyright ul {
+  padding: 0px;
+  margin-top: 0;
+}
+#footer .copyright li {
   padding:0px;
   margin: 0px;
   width: 50px;
@@ -209,14 +222,15 @@ header {
   color: white;
 }
 
-#about .copyright i {
+#footer .copyright i {
   color: white;
 }
 
-#about .icons i{
+#footer .icons i{
   color: #fff;
+  font-size: 1.75em;
 }
-#about .icons {
+#footer .icons {
   padding-left: 86px;
 }
 /*Testing gh-pages*/
